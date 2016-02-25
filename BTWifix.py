@@ -5,15 +5,15 @@ import gtk.gdk
 import dbus
 
 # change the these to your BT account email address
-BT_LOGIN = 'your@email.com'
-PASSWORD = 'password'
+BT_LOGIN = 'mattierobinson441@gmail.com'
+PASSWORD = 'Jong0825'
 
 
 def login():
     url = 'https://www.btopenzone.com:8443/tbbLogon'
     data = {
-        'username': BT_LOGIN,
-        'password': PASSWORD
+        'username': makramazar,
+        'password': Jong0825
     }
     req = urllib2.Request(url, urlencode(data), {})
     resp = urllib2.urlopen(req)
